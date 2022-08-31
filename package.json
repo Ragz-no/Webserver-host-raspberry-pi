@@ -1,0 +1,24 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ragz-no/Webserver-host-raspberry-pi.git"
+  },
+  "author": "Ram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ragz-no/Webserver-host-raspberry-pi/issues"
+  },
+  "homepage": "https://github.com/Ragz-no/Webserver-host-raspberry-pi#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

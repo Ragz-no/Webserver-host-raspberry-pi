@@ -22,4 +22,8 @@ app.get("/", (req, res) => {
 
 app.get("/about",(req, res) => {
     res.render("about");
-})
+});
+
+const PORT = process.env.PORT || 6969, () =>{
+    console.log("Server started on http://localhost:6969/");
+};
