@@ -1,6 +1,6 @@
 //Jshint esversion:6
 
-const express require("express");
+const express = require("express");
 const bodyparser = require("body-parser");
 const ejs = require("ejs");
 
@@ -24,6 +24,8 @@ app.get("/about",(req, res) => {
     res.render("about");
 });
 
-const PORT = process.env.PORT || 6969, () =>{
+const PORT = process.env.PORT || 6969;
+
+app.listen (PORT, () =>{
     console.log("Server started on http://localhost:6969/");
-};
+});
